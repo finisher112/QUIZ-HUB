@@ -1,0 +1,100 @@
+body{
+    background-color:#aaebfc;
+}
+.grid{
+    width: 600px;
+    height: 450px;
+    margin:0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border:2px solid #cbcbcb;
+    box-shadow: 10px 15px 5px #bbddf2;
+}
+.grid h1{
+    
+    background-color: #f42525;
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    border-radius: 50px;
+}
+#score{
+    color: #5a6772;
+    text-align: center;
+    font-size: 30px;
+}
+.grid #question{
+    font-family: "monospace";
+    font-size: 20px;
+    color: #5a6772;
+}
+.buttons{
+    margin-top:30px;
+}
+ #bt0, #bt1, #bt2, #bt3{
+    background-color:#270eb4;
+    width: 250px;
+    font: size 20px;
+    color: #fff;
+    border: 1px solid #1d3c6a;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+ }
+ #bt0:hover, #bt1:hover, #bt2:hover, #bt3:hover{
+    cursor: pointer;
+    background-color: #2c0747;
+ }
+ #bt4,#bt5 {
+    background-color: #24e69c;
+    border: #24e69c;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+ }
+ #bt0:focus, #bt1:focus,#bt2:focus,#bt3:focus{
+    outline: 0;
+ }
+#progress{
+    color: #2b2b2b;
+    font-size: 18px;
+}
+.btstyle{
+       text-align: right;
+    
+}
+#back, #mainpage{
+    background-color:#f1113e;
+    width: 150px;
+    font: size 20px;
+    color: #fff;
+    border: 1px solid #fcca26;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+ }
+ #back:hover, #mainpage:hover{
+    cursor: pointer;
+    background-color: #ea5600;
+ }
+
+ .MAINPAGE{
+  text-align: justify;
+ 
+}
+#TENTH, #TEWTH{
+ background-color:#f1113e;
+ width: 200px;
+ font: size 20px;
+ color: #fff;
+ border: 1px solid #fcca26;
+ border-radius: 50px;
+ margin: 10px 40px 10px 0px;
+ padding: 10px 10px;
+}
+#TENTH:hover, #TEWTH:hover{
+ cursor: pointer;
+ background-color: #ea5600;
+}

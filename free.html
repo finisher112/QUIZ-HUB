@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+</head>
+
+<body class="background">
+
+    <CENTER><h1><B><font color=purpale>SELECT YOUR CLASS AND SUBJECT</font></B></h1></CENTER>
+
+<BR><BR><BR><BR>
+    <div id="mySidepanel" class="sidepanel">
+        <button onclick="closeNav()">X</button><br>
+        <a href="free.html">Home </a><br>
+        <a href="aboutus.html">About</a><br>
+        <a href="services.html">Service</a><br>
+    
+        <a href="contanct.html">Contanct</a>
+        <
+    </div>
+    <button class="openbtn" onclick="openNav()">&#9776; MENU</button>
+    <div  onclick="closeNav()">
+   <CENTER><font color=white><b> CLASS:</b></font> <select name="class" id="class" onclick="closeNav()">
+        <option value="" selected="selected" >Select class</option>
+    </select>
+    <br><br>
+    <b><font color=white>SUBJECT:</font></b> <select name="subject" id="subject">
+        <option value="" selected="selected">Please select subject first</option>
+    </select>
+    <br><br>
+  <button onclick="openPage()" value="Submit">SUBMIT</button>
+
+</div>
+    <script src="dropdown.js">
+
+window.onclick= function(event){
+    closeNav();
+}
+    </script>
+</CENTER>
+</body>
+
+</html>
