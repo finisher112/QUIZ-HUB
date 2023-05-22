@@ -1,7 +1,7 @@
 
 .background {
   background-image: url(freepage1.3.jpg);
-  height: auto;
+  object-fit: cover;
   
 }
 
