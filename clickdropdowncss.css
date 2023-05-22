@@ -1,5 +1,8 @@
 .background {
  background-image:url(freepage1.1.jpg);
+ height:500px;
+  width:700px;
+ object-fit: cover;
 }
 
 
